@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Event Handlers</title>
+</head>
+<body>
+    <button class = "btn" onclick="alert('The button has been clicked.')"> Button  </button>
+
+
+    <div class="dropdown">
+        <button onclick="getDrop()" class="dbtn">Dropdown Menu</button>
+        <div id="dropbtn" class="dropitems">
+          <a href="#">Item 1</a>
+          <a href="#">Item 2</a>
+          <a href="#">Item 3</a>
+        </div>
+    </div>
+
+    <div id="box">
+        <p>Hover to change color</p>
+
+    </div>
+
+    <div class = form>
+        <h1>Send a message!</h1>
+        <form>
+            <input type="text" PLACEHOLDER = "Full Name (Required)" required/>
+            <input type="text" PLACEHOLDER = "Your Message (Required)" required/>
+
+            <div style="display:block;text-align: center;">
+                <button class = "btn", type="submit">
+                   Submit
+               </button>
+            </div>
+        </form>
+      
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
